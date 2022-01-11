@@ -1,0 +1,16 @@
+{
+  "name": "tunewhats",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^4.9.0",
+    "@google-cloud/storage": "^5.16.0",
+    "mongodb": "^4.2.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.15.3"
+  }
+}
